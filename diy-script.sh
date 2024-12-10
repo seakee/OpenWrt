@@ -72,22 +72,6 @@ git clone --depth=1 https://github.com/ximiTech/luci-app-msd_lite package/luci-a
 git clone --depth=1 https://github.com/ximiTech/msd_lite package/msd_lite
 
 # MosDNS
-<<<<<<< HEAD
-svn export https://github.com/sbwml/luci-app-mosdns/trunk/luci-app-mosdns package/luci-app-mosdns
-svn export https://github.com/sbwml/luci-app-mosdns/trunk/mosdns package/mosdns
-
-# DDNS.to
-# svn export https://github.com/linkease/nas-packages-luci/trunk/luci/luci-app-ddnsto package/luci-app-ddnsto
-# svn export https://github.com/linkease/nas-packages/trunk/network/services/ddnsto package/ddnsto
-
-# Alist
-# svn export https://github.com/sbwml/luci-app-alist/trunk/luci-app-alist package/luci-app-alist
-# svn export https://github.com/sbwml/luci-app-alist/trunk/alist package/alist
-
-# iStore
-# svn export https://github.com/linkease/istore-ui/trunk/app-store-ui package/app-store-ui
-# svn export https://github.com/linkease/istore/trunk/luci package/luci-app-store
-=======
 git clone --depth=1 https://github.com/sbwml/luci-app-mosdns package/luci-app-mosdns
 
 # Alist
@@ -100,7 +84,6 @@ git_sparse_clone master https://github.com/linkease/nas-packages network/service
 # iStore
 git_sparse_clone main https://github.com/linkease/istore-ui app-store-ui
 git_sparse_clone main https://github.com/linkease/istore luci
->>>>>>> c51c06381c1deff2ab8dad37a05e4a5bae6afb31
 
 # 在线用户
 git_sparse_clone main https://github.com/haiibo/packages luci-app-onliner
